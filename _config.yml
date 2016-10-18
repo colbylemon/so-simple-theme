@@ -6,7 +6,8 @@ timezone: America/Los_Angeles
 description:
 logo:
 search: true
-url: http://localhost:4000
+destination: ../lemonlab_site
+url: https://colbylemon.github.io
 
 # Jekyll configuration
 
