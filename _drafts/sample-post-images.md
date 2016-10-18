@@ -6,7 +6,6 @@ categories: articles
 tags: [sample-post, images, test]
 comments: true
 share: true
-modified: 2016-06-01T14:17:50-04:00
 ---
 
 Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
@@ -26,8 +25,8 @@ Apply the `half` class like so to display two images side by side that share the
 
 ```html
 <figure class="half">
-	<img src="/images/image-filename-1.jpg" alt="image">
-	<img src="/images/image-filename-2.jpg" alt="image">
+	<img src="../../images_2016/so-simple-sample-image-1.jpg" alt="image">
+	<img src="../../images_2016/so-simple-sample-image-2.jpg" alt="image">
 	<figcaption>Caption describing these two images.</figcaption>
 </figure>
 ```
@@ -35,10 +34,8 @@ Apply the `half` class like so to display two images side by side that share the
 And you'll get something that looks like this:
 
 <figure class="half">
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<img src="http://placehold.it/600x300.jpg" alt="image">
-	<img src="http://placehold.it/600x300.jpg" alt="image">
+	<a href="../../images_2016/so-simple-sample-image-1.jpg"><img src="../../images_2016/so-simple-sample-image-1.jpg" alt="image"></a>
+	<a href="../../images_2016/so-simple-sample-image-2.jpg"><img src="../../images_2016/so-simple-sample-image-2.jpg" alt="image"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 
@@ -48,9 +45,9 @@ Apply the `third` class like so to display three images side by side that share 
 
 ```html
 <figure class="third">
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
+	<a href="../../images_2016/so-simple-sample-image-1.jpg"><img src="../../images_2016/so-simple-sample-image-1.jpg" alt="image"></a>
+	<a href="../../images_2016/so-simple-sample-image-2.jpg"><img src="../../images_2016/so-simple-sample-image-2.jpg" alt="image"></a>
+	<a href="../../images_2016/so-simple-sample-image-3.jpg"><img src="../../images_2016/so-simple-sample-image-3.jpg" alt="image"></a>
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
 ```
@@ -58,11 +55,8 @@ Apply the `third` class like so to display three images side by side that share 
 And you'll get something that looks like this:
 
 <figure class="third">
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
+	<a href="../../images_2016/so-simple-sample-image-1.jpg"><img src="../../images_2016/so-simple-sample-image-1.jpg" alt="image"></a>
+	<a href="../../images_2016/so-simple-sample-image-2.jpg"><img src="../../images_2016/so-simple-sample-image-2.jpg" alt="image"></a>
+	<a href="../../images_2016/so-simple-sample-image-3.jpg"><img src="../../images_2016/so-simple-sample-image-3.jpg" alt="image"></a>
 	<figcaption>Three images.</figcaption>
 </figure>
