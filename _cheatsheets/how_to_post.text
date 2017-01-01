@@ -1,0 +1,4 @@
+* Add text file to the _posts directory (use a template)
+* bundle exec jekyll build (or bundle exec jekyll serve)
+* Open bookmarked file:///Users/lemon/Sync/git/lemonlab_site/index.html
+* Commit both changes (lemonlab and lemonlab_site) to github
